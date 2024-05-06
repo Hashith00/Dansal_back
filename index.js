@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 app.use(express.json());
 
-const url = "http://hashith.online";
+const url = "https://hashith.online";
 const corsOption = {
   origin: url,
   credentials: true,
