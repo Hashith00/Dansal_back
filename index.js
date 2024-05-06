@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 app.use(express.json());
 
-const url = "http://localhost:8080";
+const url = "http://hashith.online:8080";
 const corsOption = {
   origin: url,
   credentials: true,
@@ -13,7 +13,7 @@ const corsOption = {
 app.use(cors(corsOption));
 
 // Deffine port here
-let port = 4000;
+let port = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use("/api", dansal);
 
